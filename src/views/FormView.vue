@@ -78,7 +78,7 @@
     if (
         dep === null || 
         dep === undefined || 
-        dep === '' || 
+        // dep === '' || 
         isNaN(dep) || 
         dep < 0
       ) {

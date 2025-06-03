@@ -14,7 +14,7 @@
   import { useRouter } from "vue-router";
 
   const username = ref('');
-  const router = useRouter('');
+  const router = useRouter();
 
   const login = () => {
     if (username.value.trim() === '') {
